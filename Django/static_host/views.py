@@ -14,3 +14,6 @@ def index(request):
 
 def polls(request):
     return HttpResponse("Hello, world. You're at the polls index.")
+
+def bootstrap(request):
+    return render(request, "bootstrap.html")

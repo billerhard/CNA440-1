@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('static_host.urls')),
     url(r'^polls/', include('static_host.urls')), #this line added
+
 ]
